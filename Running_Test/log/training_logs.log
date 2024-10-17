@@ -1,0 +1,27 @@
+All train and test data will be saved in:  ./Running_Test
+----------------------------------
+Begin Time:  2024-10-17 15:06:56
+--------------args----------------
+seed                 3407
+gpu_id               1
+model                MobileVit_IQA
+backbone             vit_base_patch8_224
+mal_num              3
+dataset              uhdiqa
+loss                 MSE
+lr                   1e-05
+weight_decay         1e-05
+batch_size           8
+epochs               10
+T_max                50
+eta_min              0
+save_path            ./Running_Test
+teacher_pkl          None
+----------------------------------
+Train idx:  [3361, 3322, 485, 1182, 1743, 136, 3641, 702, 2429, 2448]
+Test idx:  [2761, 3491, 1600, 2050, 2938, 2262, 1728, 1247, 28, 21]
+Traning data number:  3415
+Testing data number:  854
+Loading MobileVit_IQA...
+----------------------------------
+Epoch	Train_Loss	Train_KRCC	Train_SROCC	Train_PLCC	Test_KRCC	Test_SROCC	Test_PLCC
